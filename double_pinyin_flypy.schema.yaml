@@ -355,4 +355,4 @@ key_binder:
     
 menu:
   # 候选词个数
-  page_size: 6
+  page_size: 5
