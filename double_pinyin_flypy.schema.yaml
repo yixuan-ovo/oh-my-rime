@@ -27,21 +27,18 @@ schema:
     - melt_eng          # 英文方案
 
 switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 英文 ]
+  - name: ascii_punct
+    states: [ "．，","。，"]
+    reset: 1
   - name: emoji_suggestion
     states: [ "😣️","😁️"]
     reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
-    reset: 0
+    reset: 1
   - name: transcription
     states: [ 简体 , 繁体 ]
-    reset: 0
-  - name: ascii_punct
-    states: [ "。，", "．，" ]
-    reset: 0
+    reset: 1
   - name: chaifen        # 拆字滤镜
     states: [ 🙈, 🐵 ]     # 快捷键 「Control+Shift+C」
     reset: 0
