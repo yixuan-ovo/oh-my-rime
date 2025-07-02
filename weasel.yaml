@@ -12,12 +12,12 @@ config_version: "2024-03-02"
 # [app_options]
 # 针对特定应用的设置
 app_options:
-  firefox.exe:
-    inline_preedit: true # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
-  iexplore.exe:
-    inline_preedit: true # 兼容 IE
-  browser.exe:
-    inline_preedit: true # 兼容 Yandex
+  code.exe:
+    ascii_mode: true
+  WeChatDevTools.exe:
+    ascii_mode: true
+  Postman.exe:
+    ascii_mode: true
 
 # [global settings]
 show_notifications: false                   # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
@@ -31,19 +31,17 @@ style:
   color_scheme: yixuan3             # 默认配色方案
   color_scheme_dark: yixuan4         # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
-
-
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
   # 详细设定请参考 <https://github.com/rime/weasel/wiki/字體設定>
-  font_face: "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Microsoft YaHei, SF Pro, Segoe UI Emoji, Noto Color Emoji"
-  label_font_face: "Microsoft YaHei"       # 标签字体
+  font_face: "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, 微软雅黑, SF Pro, Segoe UI Emoji, Noto Color Emoji"
+  label_font_face: "微软雅黑"       # 标签字体
   comment_font_face: "JetBrains Mono"     # 注释字体
   font_point: 11                           # 全局字体字号
   label_font_point: 12                     # 标签字体字号，不设定 fallback 到 font_point
   comment_font_point: 9                   # 注释字体字号，不设定 fallback 到 font_point
 
-  inline_preedit: false                     # 行内显示预编辑区：true；false
+  inline_preedit: true                     # 行内显示预编辑区：true；false
   preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
   
   fullscreen: false                        # 候选窗口全屏显示：true；false
@@ -56,7 +54,7 @@ style:
   vertical_auto_reverse: false             # 文本竖排模式下，候选窗口位于光标上方时倒序排列：true；false
   
   label_format: "%s"                       # 标签字符：例如 %s. 效果为 1. 2. 3. ....
-  mark_text: "|"                           # 标记字符，显示在选中的候选标签前，需要在配色方案中指定颜色；如该项为空字符串 "" 而配色方案中 hilited_mark_color 非透明色，则显示 Windows 11 输入法风格标记
+  mark_text: "-"                           # 标记字符，显示在选中的候选标签前，需要在配色方案中指定颜色；如该项为空字符串 "" 而配色方案中 hilited_mark_color 非透明色，则显示 Windows 11 输入法风格标记
   ascii_tip_follow_cursor: false           # 切换 ASCII 模式时，提示跟随鼠标，而非输入光标
   enhanced_position: true                  # 无法定位候选框时，在窗口左上角显示候选框：true；false
   display_tray_icon: false                 # 托盘显示独立于语言栏的额外图标：true；false
@@ -250,6 +248,7 @@ preset_color_schemes:
     name: 月一／ytq
     author: yixuan-gmail
     color_format: rgba
+    hilited_mark_color: 0xBE646D
     text_color: 0xAC4D4D
     back_color: 0xFFFFFF
     border_color: 0x99B2DE
@@ -267,6 +266,7 @@ preset_color_schemes:
     name: 月二／ytq
     author: yixuan-gmail
     color_format: rgba
+    hilited_mark_color: 0xBE646D
     text_color: 0xAC4D4D
     back_color: 0xFFFFFF
     border_color: 0x99B2DE
@@ -284,6 +284,7 @@ preset_color_schemes:
     name: 月三／ytq
     author: yixuan-gmail
     color_format: rgba
+    hilited_mark_color: 0xBE646D
     text_color: 0x4999B4
     back_color: 0xFFFFFF
     border_color: 0x8D6854
@@ -301,6 +302,7 @@ preset_color_schemes:
     name: 月四／ytq
     author: yixuan-gmail
     color_format: abgr
+    hilited_mark_color: 0xBE646D
     text_color: 0xAC4D4D
     back_color: 0xFFFFFF
     border_color: 0x99B2DE
