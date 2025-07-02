@@ -28,17 +28,17 @@ schema:
 
 switches:
   - name: ascii_punct
-    states: [ "．，","。，"]
+    states: [ "。，", "．，" ]
     reset: 1
   - name: emoji_suggestion
     states: [ "😣️","😁️"]
     reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
-    reset: 1
+    reset: 0
   - name: transcription
     states: [ 简体 , 繁体 ]
-    reset: 1
+    reset: 0
   - name: chaifen        # 拆字滤镜
     states: [ 🙈, 🐵 ]     # 快捷键 「Control+Shift+C」
     reset: 0
