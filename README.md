@@ -1,9 +1,5 @@
 ![样式](https://www.mintimate.cc/image/demo/guide.webp)
 
-- [中文 - 简体简介](README.md)
-- [中文 - 繁體簡介](README_zh-CHT.md)
-- [English - Brief](README_en.md)
-
 一套快速初始化rime的模板方案，因为平时我使用`oh-my-zsh`，希望大家在用这个模板的时候，有种用`omz`的感觉；所以我给它取名叫`oh-my-rime`，你也可以叫它`薄荷输入法`，亦或者`Mint Input`。
 
 如果你下载遇到困难，使用GitHub Action推送的镜像仓库：
@@ -33,9 +29,6 @@ Rime 配置教程：
 - 小鹤双拼-薄荷定制: 基于小鹤双拼，添加定制内容。支持输入音形(形码)、自然码辅助码或墨奇辅助码作为辅助输入；
 - 薄荷拼音-小鹤混输: 全拼输入的同时，支持小鹤双拼；
 - 地球拼音-薄荷定制: 基于地球拼音，添加定制内容，扩展海量词库；
-- 五笔98-五笔小筑: 基于[98wubi](https://github.com/yanhuacuo/98wubi)的精简版本，期待大家的PR。如果想要更好的体验(五笔、拼音混输入等)，欢迎使用五笔98团队做的[五笔98](https://github.com/yanhuacuo/98wubi)；
-- 五笔86-极点五笔: 基于[wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)的精简版本，期待大家的PR。如果想要更好的体验(五笔、拼音混输入等)，欢迎使用[rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)；
-- 仓九宫格-全拼输入: 基于「薄荷拼音-全拼输入」，适用于在iOS仓输入法内使用九宫格；如果有其他方案的九宫格需求，可以基于本方案修改。
 
 你可以在安装后，使用『Ctrl』+『~』进行切换。（默认激活的是『薄荷拼音-全拼输入』）。
 
