@@ -261,6 +261,9 @@ preset_color_schemes:
     hilited_comment_text_color: 0xC97070
     hilited_candidate_back_color: 0xE4BEBE
     hilited_label_color: 0xA31B1B
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    nextpage_color: 0x2b313d                  # inline_preedit: false 翻页箭头颜色：下一页；不设置则不显示箭头
+    prevpage_color: 0xc0666f                  # inline_preedit: false 翻页箭头颜色：上一页；不设置则不显示箭头
 
   yixuan2:
     name: 月二／ytq
@@ -279,6 +282,9 @@ preset_color_schemes:
     hilited_comment_text_color: 0xFFFFFF
     hilited_candidate_back_color: 0xE4BEBE
     hilited_label_color: 0xA31B1B
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    nextpage_color: 0x2b313d                  # inline_preedit: false 翻页箭头颜色：下一页；不设置则不显示箭头
+    prevpage_color: 0xc0666f                  # inline_preedit: false 翻页箭头颜色：上一页；不设置则不显示箭头
 
   yixuan3:
     name: 月三／ytq
@@ -297,6 +303,9 @@ preset_color_schemes:
     hilited_comment_text_color: 0xFFFFFF
     hilited_candidate_back_color: 0xBFC99D
     hilited_label_color: 0x5D6D4B
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    nextpage_color: 0x2b313d                  # inline_preedit: false 翻页箭头颜色：下一页；不设置则不显示箭头
+    prevpage_color: 0xc0666f                  # inline_preedit: false 翻页箭头颜色：上一页；不设置则不显示箭头
 
   yixuan4:
     name: 月四／ytq
@@ -315,6 +324,9 @@ preset_color_schemes:
     hilited_comment_text_color: 0xFFFFFF
     hilited_candidate_back_color: 0xE4BEBE
     hilited_label_color: 0xA31B1B
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    nextpage_color: 0x2b313d                  # inline_preedit: false 翻页箭头颜色：下一页；不设置则不显示箭头
+    prevpage_color: 0xc0666f                  # inline_preedit: false 翻页箭头颜色：上一页；不设置则不显示箭头
 
   aqua:
     name: 碧水／Aqua
